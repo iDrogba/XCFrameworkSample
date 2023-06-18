@@ -1,0 +1,97 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToyFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIHelper",
+        "printedName": "UIHelper",
+        "declKind": "Class",
+        "usr": "s:12ToyFramework8UIHelperC",
+        "mangledName": "$s12ToyFramework8UIHelperC",
+        "moduleName": "ToyFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Function",
+        "name": "makeLabelUI",
+        "printedName": "makeLabelUI(fontColor:font:text:textAlignment:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UILabel",
+            "printedName": "UIKit.UILabel",
+            "usr": "c:objc(cs)UILabel"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIColor",
+            "printedName": "UIKit.UIColor",
+            "usr": "c:objc(cs)UIColor"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIFont",
+            "printedName": "UIKit.UIFont",
+            "usr": "c:objc(cs)UIFont"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "UIKit.NSTextAlignment?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSTextAlignment",
+                "printedName": "UIKit.NSTextAlignment",
+                "usr": "c:@E@NSTextAlignment"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12ToyFramework11makeLabelUI9fontColor0F04text0H9AlignmentSo7UILabelCSo7UIColorC_So6UIFontCSSSgSo06NSTextI0VSgtF",
+        "mangledName": "$s12ToyFramework11makeLabelUI9fontColor0F04text0H9AlignmentSo7UILabelCSo7UIColorC_So6UIFontCSSSgSo06NSTextI0VSgtF",
+        "moduleName": "ToyFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,11 @@
+framework module ToyFramework {
+  umbrella header "ToyFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ToyFramework.Swift {
+  header "ToyFramework-Swift.h"
+  requires objc
+}
